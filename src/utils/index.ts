@@ -1,0 +1,1 @@
+export const animation = ['ClockAnimation', 'DoubleTap', 'MiniGame', 'MoveTitleAnimation', 'Skeleton', 'TimerAnimation'];
