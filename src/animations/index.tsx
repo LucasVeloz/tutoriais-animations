@@ -4,6 +4,8 @@ import { MiniGame } from './MiniGame';
 import { MoveTitleAnimation } from './MoveTitleAnimation';
 import { Skeleton } from './Skeleton';
 import { TimerAnimation } from './TimerAnimation';
+import { Modal } from './Modal';
+import { PanGesture } from './PanGesture';
 
 
 export {
@@ -13,4 +15,6 @@ export {
   MoveTitleAnimation,
   Skeleton,
   TimerAnimation,
+  Modal,
+  PanGesture,
 }

@@ -1,1 +1,1 @@
-export const animation = ['ClockAnimation', 'DoubleTap', 'MiniGame', 'MoveTitleAnimation', 'Skeleton', 'TimerAnimation'];
+export const animation = ['ClockAnimation', 'DoubleTap', 'MiniGame', 'MoveTitleAnimation', 'Skeleton', 'TimerAnimation', 'Modal', 'PanGesture'];
