@@ -8,7 +8,7 @@ import { animation } from '../utils';
 export const Home = () => {
   const navigation = useNavigation();
   return (
-    <ScrollView style={styles.container}>
+    <ScrollView style={styles.container} contentContainerStyle={styles.content}>
       {React.Children.toArray(animation.map((item, index) => (
         <Animated.View entering={FadeInLeft.delay(100 * index)}>
           <Pressable style={styles.item} onPress={() => navigation.navigate(item)}>
@@ -25,6 +25,10 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 20,
+  },
+  content: {
+    paddingBottom: 50
+
   },
   item: {
     width: '100%',
