@@ -1,9 +1,7 @@
 import React, { useRef } from 'react';
-import { Dimensions, StyleSheet, Text, useWindowDimensions, View } from 'react-native';
+import { StyleSheet, Text, useWindowDimensions, View } from 'react-native';
 import { Modalize } from 'react-native-modalize';
 
-
-const { height } = Dimensions.get('window');
 export const BottomSheet = () => {
   const modalRef = useRef<Modalize>(null);
   const { height } = useWindowDimensions();
