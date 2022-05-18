@@ -8,6 +8,7 @@ import { Home } from '../screens/Home';
 import { DrawerRoutes } from './drawer.routes';
 import { Drawer2 } from '../animations/Drawer2';
 import { Toggle } from '../animations/Toggle';
+import { BottomSheet } from '../animations/BottomSheet';
 
 const { Navigator, Screen } = createNativeStackNavigator();
 
@@ -28,6 +29,7 @@ export const Routes = () => {
         <Screen name="Drawer" component={DrawerRoutes} />
         <Screen name="Drawer2" component={Drawer2} />
         <Screen name="Toggle" component={Toggle} />
+        <Screen name="BottomSheet" component={BottomSheet} />
       </Navigator>
     </NavigationContainer>
   )
