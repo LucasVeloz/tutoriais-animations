@@ -11,5 +11,8 @@ export const animation = [
   'Drawer', 
   'Drawer2', 
   'Toggle',
-  'BottomSheet'
+  'BottomSheet',
+  'DropText',
+  'DropText2',
+  'DropText3'
 ];

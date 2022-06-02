@@ -9,6 +9,9 @@ import { DrawerRoutes } from './drawer.routes';
 import { Drawer2 } from '../animations/Drawer2';
 import { Toggle } from '../animations/Toggle';
 import { BottomSheet } from '../animations/BottomSheet';
+import { DropText } from '../animations/DropText';
+import { DropText2 } from '../animations/DropText2';
+import { DropText3 } from '../animations/DropText3';
 
 const { Navigator, Screen } = createNativeStackNavigator();
 
@@ -30,6 +33,9 @@ export const Routes = () => {
         <Screen name="Drawer2" component={Drawer2} />
         <Screen name="Toggle" component={Toggle} />
         <Screen name="BottomSheet" component={BottomSheet} />
+        <Screen name="DropText" component={DropText} />
+        <Screen name="DropText2" component={DropText2} />
+        <Screen name="DropText3" component={DropText3} />
       </Navigator>
     </NavigationContainer>
   )
