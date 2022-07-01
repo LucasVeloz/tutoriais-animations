@@ -14,5 +14,7 @@ export const animation = [
   'BottomSheet',
   'DropText',
   'DropText2',
-  'DropText3'
+  'DropText3',
+  'ECommerce',
+  'Stories'
 ];

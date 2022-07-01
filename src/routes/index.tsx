@@ -12,6 +12,8 @@ import { BottomSheet } from '../animations/BottomSheet';
 import { DropText } from '../animations/DropText';
 import { DropText2 } from '../animations/DropText2';
 import { DropText3 } from '../animations/DropText3';
+import { ECommerce } from '../screens/ECommerce';
+import { Stories } from '../animations/Stories';
 
 const { Navigator, Screen } = createNativeStackNavigator();
 
@@ -36,6 +38,8 @@ export const Routes = () => {
         <Screen name="DropText" component={DropText} />
         <Screen name="DropText2" component={DropText2} />
         <Screen name="DropText3" component={DropText3} />
+        <Screen name="ECommerce" component={ECommerce} />
+        <Screen name="Stories" component={Stories} />
       </Navigator>
     </NavigationContainer>
   )
