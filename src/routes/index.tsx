@@ -14,6 +14,7 @@ import { DropText2 } from '../animations/DropText2';
 import { DropText3 } from '../animations/DropText3';
 import { ECommerce } from '../screens/ECommerce';
 import { Stories } from '../animations/Stories';
+import { RecordingAudio } from '../animations/RecordingAudio';
 
 const { Navigator, Screen } = createNativeStackNavigator();
 
@@ -40,6 +41,7 @@ export const Routes = () => {
         <Screen name="DropText3" component={DropText3} />
         <Screen name="ECommerce" component={ECommerce} />
         <Screen name="Stories" component={Stories} />
+        <Screen name="RecordingAudio" component={RecordingAudio} />
       </Navigator>
     </NavigationContainer>
   )

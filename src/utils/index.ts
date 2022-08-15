@@ -16,5 +16,6 @@ export const animation = [
   'DropText2',
   'DropText3',
   'ECommerce',
-  'Stories'
+  'Stories',
+  'RecordingAudio'
 ];
