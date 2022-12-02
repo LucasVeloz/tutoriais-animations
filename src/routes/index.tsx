@@ -2,7 +2,7 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-import { ClockAnimation, DoubleTap, MiniGame, Modal, MoveTitleAnimation, PanGesture, Skeleton, TimerAnimation, TimerAnimation2 } from '../animations';
+import { ClockAnimation, DoubleTap, Modal, MoveTitleAnimation, PanGesture, Skeleton, TimerAnimation, TimerAnimation2 } from '../animations';
 
 import { Home } from '../screens/Home';
 import { DrawerRoutes } from './drawer.routes';
@@ -15,6 +15,9 @@ import { DropText3 } from '../animations/DropText3';
 import { ECommerce } from '../screens/ECommerce';
 import { Stories } from '../animations/Stories';
 import { RecordingAudio } from '../animations/RecordingAudio';
+import { Draw } from '../animations/Draw';
+import { Sensors } from '../animations/Sensors';
+import { Music } from '../animations/Music';
 
 const { Navigator, Screen } = createNativeStackNavigator();
 
@@ -25,7 +28,6 @@ export const Routes = () => {
         <Screen name="Home" component={Home} />
         <Screen name="ClockAnimation" component={ClockAnimation} />
         <Screen name="DoubleTap" component={DoubleTap} />
-        <Screen name="MiniGame" component={MiniGame} />
         <Screen name="MoveTitleAnimation" component={MoveTitleAnimation} />
         <Screen name="Skeleton" component={Skeleton} />
         <Screen name="TimerAnimation" component={TimerAnimation} />
@@ -42,6 +44,11 @@ export const Routes = () => {
         <Screen name="ECommerce" component={ECommerce} />
         <Screen name="Stories" component={Stories} />
         <Screen name="RecordingAudio" component={RecordingAudio} />
+        <Screen name="Draw" component={Draw} />
+        <Screen name="Sensors" component={Sensors} />
+        <Screen name="Music" component={Music} options={{
+          gestureDirection: 'vertical'
+        }} />
       </Navigator>
     </NavigationContainer>
   )
